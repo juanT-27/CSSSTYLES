@@ -7,8 +7,40 @@
     <link rel="stylesheet" href="logInForm.css">
     <link rel="stylesheet" href="../generalStyles.css">
     <link rel="stylesheet" href="../flex-grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
 </head>
 <body>
+    <main>
+        <section class="logInForm row">
+            <div class="formHero col-12 col-md-4 col-lg-6">
+                <h2>Welcome trader</h2>
+                <p>Here you are going to save important data, </p>
+            </div>
+            <form action="logIn" class="loginForm col-12 col-md-8 col-lg-6">
+                <div class="inputGroup">
+                    <label for="fullname">Full name</label>
+                    <input type="text" id="fullname" placeholder="Juan torres">
+                    <span></span>
+                </div>
+                <div class="inputGroup">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="juan@gmail.com">
+                    <span></span>
+                </div>
+                <div class="inputGroup">
+                    <label for="password"> Password</label>
+                    <input type="password" id="password" placeholder="1Ab3-juan">
+                    <span>It should have at least 1 number a capitalize letter and a symbol</span>
+                </div>
+                <button class="Btn">log In</button>
+            </form>
+        </section>
+    </main>
     <script type="module" src="logIn.js"></script>
 </body>
 </html>

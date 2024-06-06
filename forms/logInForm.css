@@ -1,0 +1,61 @@
+.logInForm {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid black;
+}
+
+.formHero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  background-image: url("./assets/hero-form.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-light);
+}
+
+.formHero p{
+    background-color: var(--secondary-color2);
+}
+
+.loginForm {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: var(--color-darker);
+  color: var(--secondary-color);
+}
+
+.inputGroup {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inputGroup label {
+  text-align: left;
+}
+.inputGroup input {
+  width: 70%;
+  border-radius: 1rem;
+  border: 1px solid var(--secondary-color);
+}
+
+.inputGroup span {
+  display: none;
+}
+
+ .Btn {
+  width: 50%;
+  height: 3rem;
+  border: solid var(--color-light) 1px ;
+  background-color: var(--secondary-color2);
+  color: var(--color-light);
+
+}
